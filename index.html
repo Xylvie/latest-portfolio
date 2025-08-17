@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+          
+    <title>My Portfolio</title>
+  </head>
+
+  <body class="bg-[#1F2833]">
+
+    <header class="flex justify-between items-center p-5 sm:px-10 md:px-20 lg:px-40 xl:px-60 bg-[#1F2833] shadow-2xl sticky top-0 z-50">
+      <div id="logo" class="px-5">
+        <h1 class="font-extrabold text-[#66FCF1] text-2xl sm:text-3xl">JOSH</h1>
+      </div>
+
+      <nav class="text-white text-sm font-bold flex gap-4 sm:text-md sm:gap-8 pr-5">
+        <a href="#banner" class="hover:text-[#66FCF1] transition duration-300">Home</a>
+        <a href="#about" class="hover:text-[#66FCF1] transition duration-300">About</a>
+        <a href="#skills" class="hover:text-[#66FCF1] transition duration-300">Skills</a>
+        <a href="#projects" class="hover:text-[#66FCF1] transition duration-300">Projects</a>
+        <a href="#contacts" class="hover:text-[#66FCF1] transition duration-300">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+
+      <section id="banner" class="flex flex-col lg:flex-row justify-between align-center sm:justify-center">
+        
+        <!--Left Banner-->
+        <div id="name" class="text-center pt-40 md:px-40 lg:text-start lg:justify-between xl:py-60">
+
+          <h1 class="text-white font-extrabold text-5xl pb-10">Hello! <br>I'm <span class="text-[#66FCF1] text-7xl">Joshua Neri</span></h1>
+
+          <p class="text-2xl font-semibold text-white">Full Stack Web Developer</p>
+
+          
+
+            <a href="#about" class="md:px-30">
+              <button class="mt-10 px-8 py-3 bg-[#45A29E] text-white font-bold rounded-xl hover:text-[#45A29E] hover:bg-[#66FCF1] transition duration-300">
+                About
+              </button>
+            
+            </a>
+
+        </div>
+
+        <!--Right Banner-->
+        <div id="avatar" class="flex justify-center items-center">
+          <img src="/my-avatar.png" alt="My Avatar" class="relative item-center drop-shadow-2xl scale-x-[-1] h-[700px] px-10 md:justify-center-center">
+        </div>
+
+
+
+
+
+
+      </section>
+
+      <section id="about" class="mb-20" >
+        
+        <div class="flex justify-around text-white font-extrabold text-3xl font-mono mt-20 pt-5 pb-5 sm:px-40 md:px-60 lg:px-80 xl:px-120">
+          <button id="about-btn" class="uppercase hover:text-[#66FCF1] transition duration-300 cursor-pointer">about</button>
+          <button id="resume-btn" class="uppercase hover:text-[#66FCF1] transition duration-300 cursor-pointer">resume</button>
+        </div>
+
+        <div class="">
+
+          <article id="about-me" class="hidden justify-center text-center items-center text-white text-2xl font-semibold px-10 sm:px-20 md:px-40 lg:px-60 xl:px-80 py-20">
+            <p>I’m Joshua, a 
+              <span class="text-[#66FCF1]">Full-Stack Web Developer</span> 
+              with a strong foundation in <span class="text-[#66FCF1]">PHP</span>, <span class="text-[#66FCF1]">Laravel</span>, <span class="text-[#66FCF1]">HTML</span>, <span class="text-[#66FCF1]">Tailwind CSS</span>, and <span class="text-[#66FCF1]">JavaScript</span> and currently expanding into the <span class="text-[#66FCF1]">MERN stack</span>. With 3 years of professional experience, I bring both <span class="text-[#66FCF1]">technical expertise</span> and a <span class="text-[#66FCF1]">client-first</span> approach honed from my background in the <span class="text-[#66FCF1]">BPO industry </span>.
+              <br><br>
+            I specialize in building scalable, <span class="text-[#66FCF1]">user-friendly websites</span> and <span class="text-[#66FCF1]">custom online solutions</span>, from <span class="text-[#66FCF1]">backend logic</span> to clean, <span class="text-[#66FCF1]">responsive frontends</span>. Beyond coding, I have hands-on experience in <span class="text-[#66FCF1]">Thinkific</span> course setup, <span class="text-[#66FCF1]">WordPress</span> customization, and <span class="text-[#66FCF1]">Square</span> integrations, giving me an edge in delivering complete business solutions.</p>
+          </article>
+
+          <article id="resume" class="">
+            <div id="details" class="text-white grid grid-cols-1 lg:grid-cols-2 px-10 text-xl lg:text-2xl font-semibold sm:px-20 md:px-30 lg:px-40 xl:px-50 2xl:px-70">
+              <div id="personal-details">
+
+                <div class="py-5 sm:py-10">
+                  Name: <span class="text-[#66FCF1] text-2xl lg:text-3xl">Joshua Neri</span>
+                </div>
+
+                <div class="pb-5 sm:pb-10">
+                  Date of birth: <span class="text-[#66FCF1] text-2xl lg:text-3xl">December 10, 2001</span>
+                </div>
+
+                <div class="pb-5 sm:pb-10">
+                  Address: <span class="text-[#66FCF1] text-2xl lg:text-3xl">Tagoloan, Misamis Oriental, Philippines, 9001</span>
+                </div>
+
+                <div class="pb-5 sd:pb-10">
+                  Phone: <span class="text-[#66FCF1] text-2xl lg:text-3xl">+63 991 621 1696</span>
+                </div>
+
+                <hr class="lg:hidden my-10 text-white">
+
+              </div>
+
+              <div id="experience">
+
+                <div class="py-5 sm:py-10 text-white">
+                  <p class="text-2xl lg:text-3xl">Technical Support, Thinkific</p>
+                  <p class="text-xl lg:text-2xl">2024-2024</p>
+                  <p class="py-10 text-[#66FCF1]">Utilized JavaScript, HTML, and CSS to create interactive and visually appealing web pages for the customers.</p>
+                </div>
+
+                <div class="pb-5 sm:pb-10 text-white">
+                  <p class="text-2xl lg:text-3xl">Technical Support, Peak Support LLC</p>
+                  <p class="text-xl lg:text-2xl">2023-2024</p>
+                  <p class="py-10 text-[#66FCF1]">Monitored system performance for clients, proactively addressing potential issues before they impacted business operations.</p>
+                </div>
+
+              </div>
+            </div>
+
+            <a href="#" class="flex justify-center items-center">
+              <button class=" px-8 py-3 bg-[#45A29E] text-white font-bold rounded-xl hover:text-[#45A29E] hover:bg-[#66FCF1] transition duration-300">
+                Download CV
+              </button>
+            </a>
+
+          </article>
+
+
+        </div>
+      </section>
+
+      <section id="skills">
+
+        <p id="skills" class=" uppercase hover:text-[#66FCF1] transition duration-300 cursor-pointer text-white font-extrabold text-3xl font-mono mt-20 pt-5 pb-5 sm:px-40 md:px-60 lg:px-80 xl:px-120 text-center">Skills</p>
+
+        <div class="grid grid-cols-2 text-white text-md font-semibold sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-5 px-10 sm:px-20 md:px-30 lg:px-40 xl:px-50 2xl:px-70">
+
+          <div id="skillcard" class="rounded-lg p-3 shadow-2xl">
+            <i class="devicon-php-plain text-5xl text-violet-500"></i>
+            <p>PHP</p>
+          </div>
+
+          <div id="skillcard" class="rounded-lg p-3 shadow-2xl">
+            
+            <i class="devicon-javascript-plain colored text-5xl"></i>
+            <p>JavaScript (Vanilla + ES6)</p>
+          </div>
+          
+          <div id="skillcard" class="rounded-lg p-3 shadow-2xl">
+            
+            <i class="devicon-tailwindcss-original text-5xl"></i>
+            <p>Tailwind CSS</p>
+          </div>
+
+          <div id="skillcard" class="rounded-lg p-3 shadow-2xl">
+
+            
+            <i class="devicon-html5-plain colored text-5xl"></i>
+            
+            <i class="devicon-css3-plain colored text-5xl"></i>
+          
+            <p>HTML5 / CSS3</p>
+          </div>
+
+          <div id="skillcard" class="rounded-lg p-3 shadow-2xl">
+
+            
+            <i class="devicon-react-original colored text-5xl"></i>
+          
+            <p>React (learning, applying in MERN)</p>
+          </div>
+
+          <div id="skillcard" class="rounded-lg p-3 shadow-2xl">
+            <p>Thinkific (course creation & customization)</p>
+          </div>
+
+          <div id="skillcard" class="rounded-lg p-3 shadow-2xl">
+            
+            <i class="devicon-wordpress-plain colored text-5xl"></i>
+          
+            <p>WordPress (themes, plugins, customizations)</p>
+          </div>
+
+          <div id="skillcard" class="rounded-lg p-3 shadow-2xl">
+            <p>Square (e-commerce setup, payments)</p>
+          </div>
+
+          <div id="skillcard" class="rounded-lg p-3 shadow-2xl">
+            
+            <i class="devicon-mysql-original colored text-5xl"></i>
+            
+            <i class="devicon-mongodb-plain colored text-5xl"></i>
+          
+          
+            <p>MySQL / MongoDB (in progress)</p>
+          </div>
+
+          <div id="skillcard" class="rounded-lg p-3 shadow-2xl">
+            
+            <i class="devicon-git-plain colored text-5xl"></i>
+            <i class="devicon-github-original colored text-5xl"></i>
+          
+          
+            <p>Git / GitHub / Version Control</p>
+          </div>
+
+          <div id="skillcard" class="rounded-lg p-3 shadow-2xl">
+            
+            <i class="devicon-fastapi-plain colored text-5xl"></i>
+          
+            <p>REST APIs</p>
+          </div>
+
+        </div>
+      </section>
+        
+      <section id="projects" class="mb-20">
+        <p class="uppercase hover:text-[#66FCF1] transition duration-300 cursor-pointer text-white font-extrabold text-3xl font-mono mt-20 pt-5 pb-5 sm:px-40 md:px-60 lg:px-80 xl:px-120 text-center">Projects</p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 px-10 sm:px-20 md:px-30 lg:px-40 xl:px-50 2xl:px-70">
+          <!-- Project cards will go here -->
+          <div class="bg-[#45A29E] text-white p-5 rounded-lg shadow-lg hover:bg-[#1F2833] transition duration-300">
+            <img src="/public/e-commerce.png" alt="" class="w-full h-40 object-cover rounded-lg mb-4">
+            <h3 class="text-xl font-bold mb-2">E-commerce Website</h3>
+            <p class="text-sm mb-4">A responsive e-commerce website built using Vanilla HTML and Tailwind CSS and uploaded to github using GIT</p>
+            <a href="https://xylvie.github.io/ecommers/" target="_blank" class="text-[#66FCF1] hover:underline">View Project</a>
+          </div>
+
+          <div class="bg-[#45A29E] text-white p-5 rounded-lg shadow-lg hover:bg-[#1F2833] transition duration-300">
+            <img src="/public/my-portfolio.png" alt="" class="w-full h-40 object-cover rounded-lg mb-4">
+            <h3 class="text-xl font-bold mb-2">My Portfolio</h3>
+            <p class="text-sm mb-4">A responsive portfolio built with HTML5, Tailwind CSS, and JavaScript (About and Resume buton) uploaded in github using GIT.</p>
+            <a href="#" class="text-[#66FCF1] hover:underline">View Project</a>
+          </div>
+
+          <div class="bg-[#45A29E] text-white p-5 rounded-lg shadow-lg hover:bg-[#1F2833] transition duration-300">
+            <img src="/public/my-portfolio-1.png" alt="" class="w-full h-40 object-cover rounded-lg mb-4">
+            <h3 class="text-xl font-bold mb-2">My first portfolio</h3>
+            <p class="text-sm mb-4">Responsive portfolio built with HTML5, Vanilla CSS, and JavaScript (Darkmode, Projects, Resume, Contact section) and uploaded to github manually.</p>
+            <a href="https://xylvie.github.io/finalportfolio/" target="_blank" class="text-[#66FCF1] hover:underline">View Project</a>
+          </div>
+
+          <div class="bg-[#45A29E] text-white p-5 rounded-lg shadow-lg hover:bg-[#1F2833] transition duration-300">
+            <img src="/public/signin.png" alt="" class="w-full h-40 object-cover rounded-lg mb-4">
+            <h3 class="text-xl font-bold mb-2">Sign-In and Sign-Up page</h3>
+            <p class="text-sm mb-4">Interactive Sign-In and Sign-Up page built with HTML5, Vanilla CSS, and JavaScript (Change to Sign-up/Sign-In when button is clicked) and uplaoded to github manually.</p>
+            <a href="https://xylvie.github.io/project3/?" target="_blank" class="text-[#66FCF1] hover:underline">View Project</a>
+          </div>
+
+          <div class="bg-[#45A29E] text-white p-5 rounded-lg shadow-lg hover:bg-[#1F2833] transition duration-300">
+            <img src="/public/gameproject.jpg" alt="" class="w-full h-40 object-cover rounded-lg mb-4">
+            <h3 class="text-xl font-bold mb-2">2D game</h3>
+            <p class="text-sm mb-4">A 2d game built with Godot Engine using GDSCript.</p>
+            <a href="https://private-user-images.githubusercontent.com/182213009/369667817-c5e111ef-c6af-4f17-a00c-0b51756b5ed4.jpg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTU0MzQ3NjgsIm5iZiI6MTc1NTQzNDQ2OCwicGF0aCI6Ii8xODIyMTMwMDkvMzY5NjY3ODE3LWM1ZTExMWVmLWM2YWYtNGYxNy1hMDBjLTBiNTE3NTZiNWVkNC5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwODE3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDgxN1QxMjQxMDhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jY2I4ZjYzMjcwOTRlY2I4YjMwMTcwMTFiNGQ3YmUzNWRlNTRmNDAxYzQyYTI0MTA0NGZjYjliYTUzZWI1MGI3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.jJltoWPdD08m4IIBjcpP4wsVlMNUWyBUA0bENveHL50" target="_blank" class="text-[#66FCF1] hover:underline">View Project</a>
+          </div>
+
+          <div class="bg-[#45A29E] text-white p-5 rounded-lg shadow-lg hover:bg-[#1F2833] transition duration-300">
+            <img src="/public/thinkific-diversified.png" alt="" class="w-full h-40 object-cover rounded-lg mb-4">
+            <h3 class="text-xl font-bold mb-2">Training Website</h3>
+            <p class="text-sm mb-4">A training website built with Thinkific platform.</p>
+            <a href="https://thediv.thinkific.com/users/sign_in" target="_blank" class="text-[#66FCF1] hover:underline">View Project</a>
+          </div>
+
+          <div class="bg-[#45A29E] text-white p-5 rounded-lg shadow-lg hover:bg-[#1F2833] transition duration-300">
+            <img src="/public/signin2.png" alt="" class="w-full h-40 object-cover rounded-lg mb-4">
+            <h3 class="text-xl font-bold mb-2">Sign-In page</h3>
+            <p class="text-sm mb-4">A sign-in page built with HTML5 and Vanilla CSS and uplaoded to github manually.</p>
+            <a href="https://xylvie.github.io/Portfolio/" target="_blank" class="text-[#66FCF1] hover:underline">View Project</a>
+          </div>
+
+          <div class="bg-[#45A29E] text-white p-5 rounded-lg shadow-lg hover:bg-[#1F2833] transition duration-300">
+            <img src="/public/createanaccount.png" alt="" class="w-full h-40 object-cover rounded-lg mb-4">
+            <h3 class="text-xl font-bold mb-2">Create an account page</h3>
+            <p class="text-sm mb-4">Create an account page built with HTML5 and Vanilla CSS and uplaoded to github Manually.</p>
+            <a href="#" class="text-[#66FCF1] hover:underline">View Project</a>
+          </div>
+          
+
+        </div>
+      </section>
+
+      <section id="contacts">
+        <div class="isolate bg-[#1F2833 px-6 py-24 sm:py-32 lg:px-8">
+          <div aria-hidden="true" class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80">
+            <div style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)" class="relative left-1/2 -z-10 aspect-1155/678 w-144.5 max-w-none -translate-x-1/2 rotate-30 bg-linear-to-tr from-[#ff80b5] to-[#9089fc] opacity-20 sm:left-[calc(50%-40rem)] sm:w-288.75"></div>
+          </div>
+          <div class="mx-auto max-w-2xl text-center">
+            <h2 class="text-4xl font-semibold tracking-tight text-balance text-white sm:text-5xl">Contact me!</h2>
+            <p class="mt-2 text-lg/8 text-gray-400">Let's start working together!.</p>
+          </div>
+          <form action="#" method="POST" class="mx-auto mt-16 max-w-xl sm:mt-20">
+            <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+              <div>
+                <label for="first-name" class="block text-sm/6 font-semibold text-white">First name</label>
+                <div class="mt-2.5">
+                  <input id="first-name" type="text" name="first-name" autocomplete="given-name" class="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500" />
+                </div>
+              </div>
+              <div>
+                <label for="last-name" class="block text-sm/6 font-semibold text-white">Last name</label>
+                <div class="mt-2.5">
+                  <input id="last-name" type="text" name="last-name" autocomplete="family-name" class="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500" />
+                </div>
+              </div>
+              <div class="sm:col-span-2">
+                <label for="company" class="block text-sm/6 font-semibold text-white">Company</label>
+                <div class="mt-2.5">
+                  <input id="company" type="text" name="company" autocomplete="organization" class="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500" />
+                </div>
+              </div>
+              <div class="sm:col-span-2">
+                <label for="email" class="block text-sm/6 font-semibold text-white">Email</label>
+                <div class="mt-2.5">
+                  <input id="email" type="email" name="email" autocomplete="email" class="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500" />
+                </div>
+              </div>
+              <div class="sm:col-span-2">
+                <label for="phone-number" class="block text-sm/6 font-semibold text-white">Phone number</label>
+                <div class="mt-2.5">
+                  <div class="flex rounded-md bg-white/5 outline-1 -outline-offset-1 outline-white/10 has-[input:focus-within]:outline-2 has-[input:focus-within]:-outline-offset-2 has-[input:focus-within]:outline-indigo-500">
+                    <div class="grid shrink-0 grid-cols-1 focus-within:relative">
+                      <select id="country" name="country" autocomplete="country" aria-label="Country" class="col-start-1 row-start-1 w-full appearance-none rounded-md bg-transparent py-2 pr-7 pl-3.5 text-base text-gray-400 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500 sm:text-sm/6">
+                        <option>US</option>
+                        <option>CA</option>
+                        <option>EU</option>
+                      </select>
+                      <svg viewBox="0 0 16 16" fill="currentColor" data-slot="icon" aria-hidden="true" class="pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end text-gray-400 sm:size-4">
+                        <path d="M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" fill-rule="evenodd" />
+                      </svg>
+                    </div>
+                    <input id="phone-number" type="text" name="phone-number" placeholder="123-456-7890" class="block min-w-0 grow bg-transparent py-1.5 pr-3 pl-1 text-base text-white placeholder:text-gray-500 focus:outline-none sm:text-sm/6" />
+                  </div>
+                </div>
+              </div>
+              <div class="sm:col-span-2">
+                <label for="message" class="block text-sm/6 font-semibold text-white">Message</label>
+                <div class="mt-2.5">
+                  <textarea id="message" name="message" rows="4" class="block w-full rounded-md bg-white/5 px-3.5 py-2 text-base text-white outline-1 -outline-offset-1 outline-white/10 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500"></textarea>
+                </div>
+              </div>
+              <div class="flex gap-x-4 sm:col-span-2">
+                <div class="flex h-6 items-center">
+                  <div class="group relative inline-flex w-8 shrink-0 rounded-full bg-white/5 p-px inset-ring inset-ring-white/10 outline-offset-2 outline-indigo-500 transition-colors duration-200 ease-in-out has-checked:bg-indigo-500 has-focus-visible:outline-2">
+                    <span class="size-4 rounded-full bg-white shadow-xs ring-1 ring-gray-900/5 transition-transform duration-200 ease-in-out group-has-checked:translate-x-3.5"></span>
+                    <input id="agree-to-policies" type="checkbox" name="agree-to-policies" aria-label="Agree to policies" class="absolute inset-0 appearance-none focus:outline-hidden" />
+                  </div>
+                </div>
+                <label for="agree-to-policies" class="text-sm/6 text-gray-400">
+                  By selecting this, you agree to our
+                  <a href="#" class="font-semibold whitespace-nowrap text-indigo-400">privacy policy</a>.
+                </label>
+              </div>
+            </div>
+            <div class="mt-10">
+              <button type="submit" class="block w-full rounded-md bg-[#45A29E] px-3.5 py-2.5 text-center text-sm font-bold text-white shadow-xs hover:text-[#45A29E] hover:bg-[#66FCF1] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">Let's talk</button>
+            </div>
+          </form>
+        </div>
+
+      </section>
+
+    </main>
+
+    <footer class="bg-[#1F2833] text-white text-start py-5 flex justify-around px-10 sm:px-20">
+      <div>
+        <p class="text-sm">© 2024 Joshua Neri. All rights reserved.</p>
+        <p class="text-sm">Follow me on 
+          <a href="https://www.facebook.com/Neri.Josh/" target="_blank">Facebook</a>
+          <a href="https://github.com/Xylvie" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/joshua-neri-a3ba892a1/" target="_blank">LinkedIn</a>
+      </div>
+
+      <div>
+        <p class="text-sm">This portfolio will be updated each time I have new projects.</p>
+      </div>
+
+      <div class="text-sm">
+        <a href="mailto:irenjosh121001@gmail.com">Email: irenjosh121001@gmail.com</a>
+        <p>Phone: +63 991211696</p>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
